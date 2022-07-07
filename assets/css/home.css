@@ -404,7 +404,7 @@
 }
 
 #content .music-weekly {
-    background-image: url('/musicWeb/assets/img/xindex.jpg');
+    background-image: url(https://preview.colorlib.com/theme/mypodcast/images/weekly.jpg);
     background-size: 200% ;
     background-repeat: no-repeat;
     display: block;
