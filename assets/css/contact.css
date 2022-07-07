@@ -309,7 +309,7 @@
 
  
 #content .newsletter {
-   background-image: url(/musicWeb/assets/img/newsletter.jpg);
+   background-image: url(https://preview.colorlib.com/theme/mypodcast/images/newsletter.jpg);
    background-size: cover;
    display: flex;
    justify-content: center;
