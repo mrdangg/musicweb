@@ -16,7 +16,7 @@
 }
 
 #header {
-    background-image: url('/musicWeb/assets/img/nav-img.jpg');
+    background-image: url('/musicWeb/assets/img/xindex.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -404,7 +404,7 @@
 }
 
 #content .music-weekly {
-    background-image: url('/musicWeb/assets/img/nav-img.jpg');
+    background-image: url('/musicWeb/assets/img/xindex.jpg');
     background-size: 200% ;
     background-repeat: no-repeat;
     display: block;
