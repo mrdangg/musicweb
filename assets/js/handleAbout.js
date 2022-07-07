@@ -22,6 +22,26 @@ setInterval(function(){
   }
 }, 3000);
 
+// footer
+
+function show() {
+    const listinta = $$('#footer .img-instagram img');
+    const slider = $('#slider');
+    const close = $('#slider .close-slider')
+    for(let i = 0; i < listinta.length; i++) {
+        listinta[i].onclick = () => {
+            slider.style.display = 'flex';
+        }
+    }
+
+    close.onclick = () => {
+        slider.style.display = 'none';
+        slider.style.transition = 'all .2s';
+    }
+}
+
+show();
+
 
 //count number 
 
@@ -54,27 +74,3 @@ countNumber();
 
 
 
-// footer
-
-
-function show() {
-    const showfooter = $$('#footer .img-instagram img');
-    const showimg1 = $('#slider');
-    for(let key in showfooter){   
-        showfooter[key].onclick = function(){
-            showimg1.style.display = 'flex';
-            showimg1.style.transform = 'translateY(0)';
-            showimg1.style.transition = "all 2s linear ";
-        }
-    }
-
-    function close () {
-        showimg1.onclick = function(){
-            showimg1.style.display = 'none';
-        }
-    }
-
-    close();
-}
-
-show();

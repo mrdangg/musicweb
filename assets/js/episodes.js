@@ -174,3 +174,23 @@ const show = {
   },
 };
 show.start();
+
+
+
+function show1() {
+  const listinta = $$('#footer .img-instagram img');
+  const slider = $('#slider');
+  const close = $('#slider .close-slider')
+  for(let i = 0; i < listinta.length; i++) {
+      listinta[i].onclick = () => {
+          slider.style.display = 'flex';
+      }
+  }
+
+  close.onclick = () => {
+      slider.style.display = 'none';
+      slider.style.transition = 'all .2s';
+  }
+}
+
+show1();
