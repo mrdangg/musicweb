@@ -308,12 +308,7 @@
 
 
  
-#content .newsletter {
-   background-image: url(https://preview.colorlib.com/theme/mypodcast/images/newsletter.jpg);
-   background-size: cover;
-   display: flex;
-   justify-content: center;
-}
+
 
 #content .my-newsletter {
    margin: 100px 0;
@@ -373,12 +368,12 @@
 
 /* letter */
 
-#content .newsletter {
-    background-image: url(/musicWeb/assets/img/newsletter.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
- }
+ #content .newsletter {
+  background-image: url(https://preview.colorlib.com/theme/mypodcast/images/newsletter.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
  
  #content .my-newsletter {
     margin: 100px 0;
